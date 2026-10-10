@@ -1,9 +1,0 @@
----
-run:
-  timeout: 5m
-
-linters-settings:
-  errcheck:
-    exclude-functions:
-      # Never check for logger errors.
-      - (github.com/go-kit/log.Logger).Log
